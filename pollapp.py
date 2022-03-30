@@ -16,7 +16,7 @@ from kivy.uix.scrollview import ScrollView
 import mysql.connector as mys
 import csv
 try:
-    mycon = mys.connect(host = 'db4free.net' ,port = 3306, password = 'mharrish7',user ='harrishm')
+    mycon = mys.connect(host = 'db4free.net' ,port = 3306, password = 'pass',user ='user')
 except:
     pass
 
