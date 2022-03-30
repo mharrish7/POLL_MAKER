@@ -266,7 +266,7 @@ class POLLADMIN(MDApp):
 
             try:
                 if self.connected == 0:
-                    self.mycon = mys.connect(host = 'db4free.net' ,port = 3306, password = 'mharrish7',user ='harrishm')
+                    self.mycon = mys.connect(host = 'db4free.net' ,port = 3306, password = 'Pass',user ='User')
             except:
                 pass
             try:
